@@ -24,7 +24,7 @@ const MenuLeft: React.FC<MenuLeftProps> = (props) => {
       alignItems="start"
       justifyContent="space-around"
     >
-      <Heading color="primary-dark">Lmenu</Heading>
+      <Heading color="primary-dark">MENU</Heading>
       <Divider borderColor="primary-dark" orientation="horizontal" />
       <List>
         <ListItem my="3">
@@ -32,7 +32,7 @@ const MenuLeft: React.FC<MenuLeftProps> = (props) => {
             <CircleIcon boxSize={2} color="primary-dark" />
             <Link color="primary-dark">
               <Text fontSize="lg" fontWeight="bold">
-                7ett chno 3ndk fl frigo
+                What's in your fridge
               </Text>
             </Link>
           </HStack>
@@ -42,7 +42,7 @@ const MenuLeft: React.FC<MenuLeftProps> = (props) => {
             <CircleIcon boxSize={2} color="primary-dark" />
             <Link color="primary-dark">
               <Text fontSize="lg" fontWeight="bold">
-                Aji tchof recipes li kaynin
+                Check out available recipes
               </Text>
             </Link>
           </HStack>
@@ -52,7 +52,7 @@ const MenuLeft: React.FC<MenuLeftProps> = (props) => {
             <CircleIcon boxSize={2} color="primary-dark" />
             <Link color="primary-dark">
               <Text fontSize="lg" fontWeight="bold">
-                Mafik li ytyeb ?
+                No mood for cooking ?
               </Text>
             </Link>
           </HStack>

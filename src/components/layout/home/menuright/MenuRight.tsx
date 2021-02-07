@@ -16,7 +16,7 @@ const MenuRight: React.FC<MenuRightProps> = (props) => {
       alignItems="start"
       justifyContent="space-around"
     >
-      <Heading color="primary-dark">7ett chno 3ndk fl frigo :</Heading>
+      <Heading color="primary-dark">What's in your fridge :</Heading>
       <Divider borderColor="primary-dark" orientation="horizontal" mb={2} />
       <Text color="primary-dark" fontWeight="bold">
         We help you get the best dinner you can with what you have available.
